@@ -17,10 +17,11 @@ The fundamental memory element was designed for high stability margins.
 
 ### Schematic View
 ![SRAM Bitcell Schematic](SRAM_BITCELL_SCHEMATIC.png)
+*Figure 1: Transistor-level schematic showing the 6T topology and sizing.*
 
 ### Layout View
 ![SRAM Bitcell Layout](SRAM_BITCELL_LAYOUT.jpg)
-*Figure 1: High-density bitcell layout showing diffusion, poly, and metal layers.*
+*Figure 2: High-density bitcell layout showing diffusion, poly, and metal layers.*
 
 ## 2. 8x8 SRAM Array Architecture
 To demonstrate scalability and abutment, the bitcell was arrayed into a memory block.
@@ -28,7 +29,7 @@ To demonstrate scalability and abutment, the bitcell was arrayed into a memory b
 * **Abutment:** Seamless connection between adjacent cells without DRC violations.
 
 ![SRAM Array Layout](SRAM_ARRAY_LAYOUT.jpg)
-*Figure 2: Full 8x8 Array assembly demonstrating modular integration.*
+*Figure 3: Full 8x8 Array assembly demonstrating modular integration.*
 
 ## Tools Used
 * **Layout & Schematic:** Cadence Virtuoso XL
